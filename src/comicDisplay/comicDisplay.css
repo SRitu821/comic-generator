@@ -1,0 +1,16 @@
+
+  .image-gallery{
+    width: 100%;
+  }
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Two columns with equal width */
+    grid-gap: 10px; /* Adjust the gap between images as needed */
+  }
+  
+  .image_generated {
+    border: 2px solid rgb(191, 191, 191);
+    width: 100%; /* Take up the full width of the column */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
